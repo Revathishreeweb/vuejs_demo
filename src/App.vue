@@ -5,7 +5,9 @@
   <!-- <MyTemplate /> -->
   <!-- <ConditionalRendering /> -->
   <!-- <FormValidation /> -->
-  <PostMethod />
+  <!-- <PostMethod /> -->
+  <!-- <GetMethod /> -->
+  <LifecycleHooks />
   </div>
 </template>
 
@@ -15,7 +17,9 @@
 //import MyTemplate from "./components/MyTemplate.vue";
 //import ConditionalRendering from './components/ConditionalRendering.vue';
 //import FormValidation from './components/FormValidation.vue';
-import PostMethod from './components/PostMethod.vue';
+//import PostMethod from './components/PostMethod.vue';
+//import GetMethod from './components/GetMethod.vue';
+import LifecycleHooks from './components/LifecycleHooks.vue';
 
 export default {
   name: 'App',
@@ -25,7 +29,9 @@ export default {
     // MyTemplate
     //ConditionalRendering
     // FormValidation
-    PostMethod
+    //PostMethod
+    //GetMethod
+    LifecycleHooks
   }
 }
 </script>
